@@ -1,13 +1,13 @@
-const typeDefts = `
+const typeDefts =  `
 
 type Query{
-
+    sendConsole: [User]
 }
 
-type Mutation{
-
+type User{
+    name: String
 }
 
-`
+`;
 
 export default typeDefts;

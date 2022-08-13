@@ -1,5 +1,8 @@
 export default {
-    Query: {},
-    Mutation: {}
-
+  
+    Query: {
+        async sendConsole() {
+            console.log("Hola Mudno")
+        }
+    },
 }
